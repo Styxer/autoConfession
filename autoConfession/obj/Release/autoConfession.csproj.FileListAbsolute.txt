@@ -7,7 +7,6 @@ C:\Users\ofir\source\repos\autoConfession\autoConfession\bin\Release\Google.Apis
 C:\Users\ofir\source\repos\autoConfession\autoConfession\bin\Release\Google.Apis.dll
 C:\Users\ofir\source\repos\autoConfession\autoConfession\bin\Release\Google.Apis.PlatformServices.dll
 C:\Users\ofir\source\repos\autoConfession\autoConfession\bin\Release\Google.Apis.Sheets.v4.dll
-C:\Users\ofir\source\repos\autoConfession\autoConfession\bin\Release\HtmlAgilityPack.dll
 C:\Users\ofir\source\repos\autoConfession\autoConfession\bin\Release\Mmosoft.Facebook.Sdk.dll
 C:\Users\ofir\source\repos\autoConfession\autoConfession\bin\Release\Newtonsoft.Json.dll
 C:\Users\ofir\source\repos\autoConfession\autoConfession\bin\Release\System.Net.Http.dll
@@ -29,7 +28,6 @@ C:\Users\ofir\source\repos\autoConfession\autoConfession\obj\Release\autoConfess
 C:\Users\ofir\source\repos\autoConfession\autoConfession\obj\Release\autoConfession.Properties.Resources.resources
 C:\Users\ofir\source\repos\autoConfession\autoConfession\obj\Release\autoConfession.csproj.GenerateResource.cache
 C:\Users\ofir\source\repos\autoConfession\autoConfession\obj\Release\autoConfession.csproj.CoreCompileInputs.cache
-C:\Users\ofir\source\repos\autoConfession\autoConfession\obj\Release\autoConfession.csproj.CopyComplete
 C:\Users\ofir\source\repos\autoConfession\autoConfession\obj\Release\autoConfession.exe
 C:\Users\ofir\source\repos\autoConfession\autoConfession\obj\Release\autoConfession.pdb
 C:\Users\ofir\source\repos\autoConfession\autoConfession\bin\Release\Microsoft.Win32.Primitives.dll
@@ -125,4 +123,4 @@ C:\Users\ofir\source\repos\autoConfession\autoConfession\bin\Release\System.Xml.
 C:\Users\ofir\source\repos\autoConfession\autoConfession\bin\Release\System.Xml.XPath.XDocument.dll
 C:\Users\ofir\source\repos\autoConfession\autoConfession\bin\Release\Centvrio.Emoji.dll
 C:\Users\ofir\source\repos\autoConfession\autoConfession\bin\Release\Centvrio.Emoji.xml
-C:\Users\ofir\source\repos\autoConfession\autoConfession\obj\Release\autoConfession.exe.config
+C:\Users\ofir\Source\Repos\autoConfession\autoConfession\obj\Release\autoConfession.csproj.autoConfession.exe.config

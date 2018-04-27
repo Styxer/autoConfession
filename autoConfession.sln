@@ -1,13 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27428.2037
+VisualStudioVersion = 15.0.27004.2002
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "autoConfession", "autoConfession\autoConfession.csproj", "{F3BADB04-A1E8-4321-901F-71615F387283}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestProject", "UnitTestProject\UnitTestProject.csproj", "{2AF1D571-9BFB-46EB-BAEA-5AF4F02F46F5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mmosoft.Facebook.Sdk", "..\Mmosoft.Facebook.Sdk\Mmosoft.Facebook.Sdk\Mmosoft.Facebook.Sdk.csproj", "{247BFE1D-3016-4A3F-8891-704540C903FC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mmosoft.Facebook.Sdk", "Mmosoft.Facebook.Sdk-master\Mmosoft.Facebook.Sdk\Mmosoft.Facebook.Sdk.csproj", "{247BFE1D-3016-4A3F-8891-704540C903FC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -15,10 +15,9 @@ namespace autoConfession
     {
         SpreadsheetHandling handler;
 
-        private string _excelLink, _readBeginLine, _basicConfessionNum, _facebookGroupLink;
+        private string _excelLink, _readBeginLine, _basicConfessionNum, _facebookGroupLink ,_pesonalIfno;
         private string _confesionText,  _confessionNum,  _sex;
-        private readonly string maleCodePoint = "U1F535";
-        private readonly string femaleCodePoint = "U1F534";
+
 
         public FrmMain()
         {
@@ -79,7 +78,7 @@ namespace autoConfession
             {
                 confessionTimeStampTxtBox.Text = data.timeStamp;
                 _confessionNum = confessionNumTxtBox.Text = data.confessionNumber.ToString();
-                personalDetailTxtBox.Text = data.personalInfo;
+                _pesonalIfno =  personalDetailTxtBox.Text = data.personalInfo;
                 confessionTxtBox.Text = _confesionText = data.confesionText;
                 excelLineTxtBox.Text = data.excelLine.ToString();
                 _sex = sexTxtBox.Text = data.Sex;
@@ -111,7 +110,8 @@ namespace autoConfession
         {
             UnicodeString indecator = parseCodePoint(_sex);
             string targetId = Utilities.extractIDFromLink(_facebookGroupLink);
-            string textToPublish = "#" + indecator + _confessionNum + Environment.NewLine + _confesionText;
+            string ConfeesionNumber = String.IsNullOrEmpty(_pesonalIfno) ? String.Empty : Environment.NewLine + "#" + _confessionNum;
+            string textToPublish = indecator + ConfeesionNumber + Environment.NewLine + _confesionText;
             bool result = faceBookClass._fbclient.PostToGroup(textToPublish, targetId);
             if (result)
             {
@@ -135,7 +135,7 @@ namespace autoConfession
 #if DEBUG
             _excelLink = excelLinkTxtBox.Text = @"https://docs.google.com/spreadsheets/d/1HgSHbjAFAHZKumTlwNQbZ4ybZ5gvzk43RkS6ruxr1Hs/edit#gid=895544017";
             _basicConfessionNum = basicConfessionNumTxtBox.Text = "10";
-            _readBeginLine =  spreedSheetBeginLineTxtBox.Text = "4";
+            _readBeginLine =  spreedSheetBeginLineTxtBox.Text = "8";
             _facebookGroupLink = faceBookLinkTxtBox.Text = @"https://www.facebook.com/%D7%95%D7%99%D7%93%D7%95%D7%99%D7%99%D7%9D-%D7%9C%D7%9E%D7%98%D7%A8%D7%95%D7%AA-%D7%94%D7%99%D7%9B%D7%A8%D7%95%D7%AA-22-990693251093160/";
 #else
 #endif

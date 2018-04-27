@@ -5,14 +5,12 @@ C:\Users\ofir\source\repos\autoConfession\autoConfession\obj\Debug\autoConfessio
 C:\Users\ofir\source\repos\autoConfession\autoConfession\bin\Debug\autoConfession.exe.config
 C:\Users\ofir\source\repos\autoConfession\autoConfession\bin\Debug\autoConfession.exe
 C:\Users\ofir\source\repos\autoConfession\autoConfession\bin\Debug\autoConfession.pdb
-C:\Users\ofir\source\repos\autoConfession\autoConfession\bin\Debug\HtmlAgilityPack.dll
 C:\Users\ofir\source\repos\autoConfession\autoConfession\bin\Debug\Mmosoft.Facebook.Sdk.dll
 C:\Users\ofir\source\repos\autoConfession\autoConfession\bin\Debug\Newtonsoft.Json.dll
 C:\Users\ofir\source\repos\autoConfession\autoConfession\bin\Debug\HtmlAgilityPack.pdb
 C:\Users\ofir\source\repos\autoConfession\autoConfession\bin\Debug\HtmlAgilityPack.xml
 C:\Users\ofir\source\repos\autoConfession\autoConfession\bin\Debug\Mmosoft.Facebook.Sdk.pdb
 C:\Users\ofir\source\repos\autoConfession\autoConfession\bin\Debug\Newtonsoft.Json.xml
-C:\Users\ofir\source\repos\autoConfession\autoConfession\obj\Debug\autoConfession.csproj.CopyComplete
 C:\Users\ofir\source\repos\autoConfession\autoConfession\obj\Debug\autoConfession.exe
 C:\Users\ofir\source\repos\autoConfession\autoConfession\obj\Debug\autoConfession.pdb
 C:\Users\ofir\source\repos\autoConfession\autoConfession\obj\Debug\autoConfession.csprojResolveAssemblyReference.cache
@@ -125,4 +123,6 @@ C:\Users\ofir\source\repos\autoConfession\autoConfession\bin\Debug\System.Xml.XP
 C:\Users\ofir\source\repos\autoConfession\autoConfession\bin\Debug\System.Xml.XPath.XDocument.dll
 C:\Users\ofir\source\repos\autoConfession\autoConfession\bin\Debug\Centvrio.Emoji.dll
 C:\Users\ofir\source\repos\autoConfession\autoConfession\bin\Debug\Centvrio.Emoji.xml
-C:\Users\ofir\source\repos\autoConfession\autoConfession\obj\Debug\autoConfession.exe.config
+C:\Users\ofir\Source\Repos\autoConfession\autoConfession\obj\Debug\autoConfession.csproj.autoConfession.exe.config
+C:\Users\ofir\Source\Repos\autoConfession\autoConfession\bin\Debug\log4net.dll
+C:\Users\ofir\Source\Repos\autoConfession\autoConfession\bin\Debug\log4net.xml

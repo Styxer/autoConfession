@@ -56,6 +56,9 @@
     <Reference Include="HtmlAgilityPack">
       <HintPath>..\..\Mmosoft.Facebook.Sdk\Mmosoft.Facebook.Sdk\bin\Debug\HtmlAgilityPack.dll</HintPath>
     </Reference>
+    <Reference Include="log4net, Version=2.0.8.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
+      <HintPath>..\packages\log4net.2.0.8\lib\net45-full\log4net.dll</HintPath>
+    </Reference>
     <Reference Include="Newtonsoft.Json, Version=11.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <HintPath>..\packages\Newtonsoft.Json.11.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
     </Reference>
@@ -133,11 +136,13 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\Mmosoft.Facebook.Sdk\Mmosoft.Facebook.Sdk\Mmosoft.Facebook.Sdk.csproj">
-      <Project>{247bfe1d-3016-4a3f-8891-704540c903fc}</Project>
+    <ProjectReference Include="..\Mmosoft.Facebook.Sdk-master\Mmosoft.Facebook.Sdk\Mmosoft.Facebook.Sdk.csproj">
+      <Project>{247BFE1D-3016-4A3F-8891-704540C903FC}</Project>
       <Name>Mmosoft.Facebook.Sdk</Name>
     </ProjectReference>
   </ItemGroup>

@@ -15,7 +15,7 @@ namespace autoConfession
     public partial class FrmLogin : Form
     {
         private faceBookClass _fbClass;
-        FacebookClient _fbClient;
+        
         userConfigUtils.userConfig _userConfig;
         bool _rememeberChecked;
        
@@ -58,9 +58,10 @@ namespace autoConfession
         {
 
 #if DEBUG
-            userNameTxtBox.Text = "gennin@gmail.com";
-            passwordTextBox.Text = "trustno12";
-            
+           // userNameTxtBox.Text = "gennin@gmail.com"; //stavhochman@gmail.com stavhochman@walla.com
+
+           // passwordTextBox.Text = "trustno14"; //turh1973
+
 #else
 #endif
             //string password = PasswordProctection.decryptePassword();
